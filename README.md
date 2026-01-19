@@ -27,7 +27,7 @@ You'll be prompted to enter:
 - Your name
 - Email address
 - GitHub username
-- Twitter username
+- Linkedin username
 
 ### Command Line Mode
 
