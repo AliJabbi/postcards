@@ -7,7 +7,7 @@
 install_if_needed <- function(packages) {
   for (pkg in packages) {
     if (!requireNamespace(pkg, quietly = TRUE)) {
-      message(paste("Installing package:", pkg))
+      message("Installing package: ", pkg)
       install.packages(pkg, repos = "https://cran.r-project.org")
     }
   }
@@ -46,7 +46,7 @@ create_postcard <- function(name = "index.Rmd",
   
   # Check if file already exists
   if (file.exists(output_path)) {
-    response <- readline(prompt = paste0("File '", output_path, "' already exists. Overwrite? (y/n): "))
+    response <- readline(prompt = sprintf("File '%s' already exists. Overwrite? (y/n): ", output_path))
     if (tolower(response) != "y") {
       message("Cancelled. No files were created.")
       return(invisible(NULL))
@@ -77,9 +77,12 @@ create_postcard <- function(name = "index.Rmd",
         # Insert links before the closing ---
         new_links <- c(
           "links:",
-          paste0('  - label: Email\n    url: "mailto:', email, '"'),
-          paste0('  - label: GitHub\n    url: "https://github.com/', github, '"'),
-          paste0('  - label: Twitter\n    url: "https://twitter.com/', twitter, '"')
+          sprintf('  - label: Email'),
+          sprintf('    url: "mailto:%s"', email),
+          sprintf('  - label: GitHub'),
+          sprintf('    url: "https://github.com/%s"', github),
+          sprintf('  - label: Twitter'),
+          sprintf('    url: "https://twitter.com/%s"', twitter)
         )
         content <- c(content[1:(yaml_end-1)], new_links, content[yaml_end:length(content)])
       }
