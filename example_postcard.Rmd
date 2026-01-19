@@ -6,8 +6,8 @@ links:
     url: "mailto:your.email@example.com"
   - label: GitHub
     url: "https://github.com/yourusername"
-  - label: Twitter
-    url: "https://twitter.com/yourusername"
+  - label: Linkedin
+    url: "https://linkedin.com/yourusername"
 output:
   postcards::jolla
 ---
