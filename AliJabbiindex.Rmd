@@ -7,7 +7,7 @@ links:
   - label: GitHub
     url: "https://github.com/"
   - label: Email
-    url: "mailto:email@example.com"
+    url: "alijabbi339@gmail.com"
 output:
   postcards::trestles
 ---
@@ -18,12 +18,12 @@ This is a sample postcard site created with the postcards R package.
 
 ## Education
 
-**University Name** | City, State
+**Lehman College** | Bronx, New York
 
-B.S. in Subject | Year - Year
+B.S. in Subject | 2021 - 2026
 
 ## Experience
 
-**Company Name** | Position | Year - Year
+**Elite Investigation** | Security Guard | 2020 - Current
 
 Description of role and responsibilities.
