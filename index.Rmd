@@ -1,6 +1,6 @@
 ---
 title: "Ali Jabbi"
-image: "IMG_8421.jpeg"
+image: "profile.jpg."
 links:
   - label: LinkedIn
     url: "https://www.linkedin.com/in/alijabbi/"
