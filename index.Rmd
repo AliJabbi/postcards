@@ -14,7 +14,7 @@ output:
  
 ## Bio
 
-This is a sample postcard site created with the postcards R package.
+I am a Business Administration major with a minor in Data Science at Lehman College.
 
 ## Education
 
