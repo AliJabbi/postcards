@@ -5,9 +5,9 @@ links:
   - label: LinkedIn
     url: "https://www.linkedin.com/in/alijabbi/"
   - label: GitHub
-    url: "https://github.com/"
+    url: "https://github.com/AliJabbi"
   - label: Email
-    url: "mailto:email@example.com"
+    url: "alijabbi339@gmail.com"
 output:
   postcards::trestles
 ---
@@ -18,12 +18,17 @@ This is a sample postcard site created with the postcards R package.
 
 ## Education
 
-**University Name** | City, State
+**Lehman College** | Bronx, New York
 
-B.S. in Subject | Year - Year
+Bachelor of Business Administration – Concentration:  Accounting
+Minor: Data Science
+| 2021 - 2026
 
 ## Experience
 
-**Company Name** | Position | Year - Year
+**Elite Investigation** | Security Guard/ Fire Guard | 2020 - Present
 
-Description of role and responsibilities.
+Respond to emergencies with quick problem-solving and clear communication
+Prepare detailed incident reports and send regular updates to management 
+Collaborate with staff to deliver important information to residents and ensure safety compliance
+
